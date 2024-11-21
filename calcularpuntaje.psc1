@@ -1,0 +1,17 @@
+Algoritmo CalcularPuntaje
+    // variables
+	
+    Definir rojas,azules,amarillas, pf Como Entero
+	
+	azules <- 6 // Veces que llegó en intermedio
+	amarillas <- 4 // Veces que llegó de último
+    rojas <- 3 // Veces que llegó en primer lugar
+   
+    
+    
+    //  *cálculo del puntaje*
+    puntaje <- (rojas*rojas*rojas) + (2*azules) - (amarillas*amarillas)
+    
+    // *puntaje final*
+    Escribir "El puntaje que obtuvo Andrés es: ", puntaje
+FinAlgoritmo
